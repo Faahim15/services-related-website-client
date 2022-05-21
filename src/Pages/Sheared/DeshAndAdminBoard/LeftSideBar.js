@@ -93,18 +93,21 @@ const LeftSideBar = () => {
                             <Typography style={{fontWeight:400}} className={classes.text}>Deshboard</Typography>
                     </div>
                     </Link>
-
-                    <Link className={classes.linkDesign} to="/deshboard/allAppointment">
+                    <Link className={classes.linkDesign} to="/appointment">
                     <div className={classes.item}>
                         <CalendarTodayIcon style={{fontSize:"30px"}} className={classes.icon}/>
                           <Typography style={{fontWeight:400}} className={classes.text}>Appointment</Typography>   
                     </div>
                     </Link>
-
+                    
+                    <Link className={classes.linkDesign} to="/deshboard/allAppointment">
                     <div className={classes.item}>
                         <PeopleIcon style={{fontSize:"30px"}}  className={classes.icon}/>
                         <Typography style={{fontWeight:400}} className={classes.text}>Patients</Typography>
                     </div>
+                    </Link>
+
+                    
                    {
                         
                     admin && <Link className={classes.linkDesign} to="/deshboard/makeadmin">
@@ -115,9 +118,6 @@ const LeftSideBar = () => {
                   </Link>
 
                    }
-                      
-
-
                     <div className={classes.item}>
                         <AssignmentIcon style={{fontSize:"30px"}}  className={classes.icon}/>
                         <Typography style={{fontWeight:400}} className={classes.text}>Prescription</Typography>

@@ -123,7 +123,7 @@ const Navbar = () => {
                       {
                         users?.email && 
                           <Link style={{textDecoration:"none",color:"#0F0C0B"}} to="/deshboard">
-                            <Typography textAlign="center">DeshBoard</Typography>
+                            <Typography textAlign="center">DashBoard</Typography>
                           </Link>
                      
                       }
@@ -179,37 +179,11 @@ const Navbar = () => {
                         onClick={handleCloseNavMenu}
                         sx={{ my: 2, color: 'white', display: 'block' }}>
                           <Link style={{textDecoration:"none",color:"#fff"}} to="/deshboard">
-                            <Typography textAlign="center">DeshBoard</Typography>
+                            <Typography textAlign="center">DashBoard</Typography>
                           </Link>
                       </Button>
                       }
-                  <Button
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}>
-                    <Typography textAlign="center">Price</Typography>
-                  </Button>
-                  <Button
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}>
-                    <Typography textAlign="center">Price</Typography>
-                  </Button>
-                  <Button
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}>
-                    <Typography textAlign="center">Price</Typography>
-                  </Button>
-                  <Button
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}>
-                    <Typography textAlign="center">Price</Typography>
-                  </Button>
-              
-                
-                  <Button
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}>
-                    <Typography textAlign="center">Blog</Typography>
-                  </Button>
+                  
               
               </Box>
     

@@ -61,7 +61,7 @@ const Banner = () => {
                     <Grid container >
                         <Grid  className={classes.textArea} xs={12} md={6}>
                         <Typography sx={{ fontWeight: 'medium', color:"#203047",pt:3}} variant="h4" gutterBottom component="div">
-                            Your New Smile <br /> Start Here
+                            Our New Smile <br /> Start Here
                         </Typography>
                         <Typography sx={{pb:2}} variant="caption" display="block" gutterBottom>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Et iste saepe tempora officia laborum aliquam adipisci <br />perferendis porro minima. Et iste saepe tempora <br /> officia laborum aliquam adipisci perferendis porro minima.

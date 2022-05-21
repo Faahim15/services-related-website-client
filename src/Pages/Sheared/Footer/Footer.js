@@ -92,12 +92,7 @@ const Footer = () => {
                         <Typography variant="subtitle1" display="block" gutterBottom>
                             Check Up
                         </Typography>
-                        <Typography variant="subtitle1" display="block" gutterBottom>
-                            Check Up
-                        </Typography>
-                        <Typography variant="subtitle1" display="block" gutterBottom>
-                            Check Up
-                        </Typography>
+                        
                     </Grid>
 
 
@@ -117,12 +112,7 @@ const Footer = () => {
                         <Typography variant="subtitle1" display="block" gutterBottom>
                             Check Up
                         </Typography>
-                        <Typography variant="subtitle1" display="block" gutterBottom>
-                            Check Up
-                        </Typography>
-                        <Typography variant="subtitle1" display="block" gutterBottom>
-                            Check Up
-                        </Typography>
+                       
                     </Grid>
 
                     <Grid sx={{textAlign:"start", opacity:".8"}} xs={12} md={3}>
@@ -130,7 +120,7 @@ const Footer = () => {
                             Our Address
                         </Typography>
                         <Typography variant="subtitle1" display="block" gutterBottom>
-                         Gopalganj-8100, Dhaka.
+                         Chandanish-100,Chattogram.
                         </Typography>
                         <Box>
                             <FacebookIcon className={classes.icon}/>
@@ -139,13 +129,13 @@ const Footer = () => {
                         </Box>
                         <Typography sx={{mt:8}} variant="subtitle1" display="block" gutterBottom>
                             Call Now <br />
-                            <Button className={classes.numberButton}>+8801609015767</Button>
+                            <Button className={classes.numberButton}>+8801891634315</Button>
                         </Typography>
                         
                     </Grid>
                 </Grid>
                 <Typography sx={{textAlign:"center", opacity:".8", mt:12}} variant="subtitle1" display="block" gutterBottom>
-                    Copyright 2022 All Rights Reserved
+                    Copyright 2022 All Rights Reserved.
                 </Typography>
         </Box>
     );

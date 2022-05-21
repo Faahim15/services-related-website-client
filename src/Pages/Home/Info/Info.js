@@ -75,7 +75,7 @@ const Info = () => {
                                     Visit Our Location
                                 </Typography>
                                 <Typography  variant="body2" display="block" gutterBottom>
-                                    Gopalganj-8100, Dhaka
+                                    Chandanish-100, Chattogram. 
                                 </Typography>
                             </Box>
                    </Box>
@@ -91,7 +91,7 @@ const Info = () => {
                                     Contact Us Now
                                 </Typography>
                                 <Typography  variant="body2" display="block" gutterBottom>
-                                   +8801609015767
+                                   +8801891534315
                                 </Typography>
                             </Box>
                    </Box>
