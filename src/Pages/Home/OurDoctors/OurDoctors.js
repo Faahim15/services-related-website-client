@@ -28,25 +28,25 @@ const OurDoctors = () => {
                     <Grid sx={{my:3}} xs={12} md={4}>
                         <img className={classes.image} src={ourDoctors} alt="" />
                         <Typography variant="h6" gutterBottom component="div">
-                            Dr.Hanif
+                            Dr. Delo
                         </Typography>
                         <Typography className={classes.doctorText} variant="caption" gutterBottom>
-                        <PhoneIcon sx={{fontSize:"18px",color:"#6CCCCC"}}/> <span>+8801609015767</span>
+                        <PhoneIcon sx={{fontSize:"18px",color:"#6CCCCC"}}/> <span>+880178865256</span>
                     </Typography>
                     </Grid>
                     <Grid sx={{my:3}} xs={12} md={4}>
                         <img className={classes.image} src={ourDoctors} alt="" />
                         <Typography variant="h6" gutterBottom component="div">
-                            Dr.Hanif
+                            Dr. Fahim
                         </Typography>
                         <Typography className={classes.doctorText} variant="caption" gutterBottom>
-                        <PhoneIcon sx={{fontSize:"18px",color:"#6CCCCC"}}/> <span>+8801609015767</span>
+                        <PhoneIcon sx={{fontSize:"18px",color:"#6CCCCC"}}/> <span>+8801891634315</span>
                     </Typography>
                     </Grid>
                     <Grid sx={{my:3}} xs={12} md={4}>
                         <img className={classes.image} src={ourDoctors} alt="" />
                         <Typography variant="h6" gutterBottom component="div">
-                            Dr.Hanif
+                            Dr. Madali
                         </Typography>
                         <Typography className={classes.doctorText} variant="caption" gutterBottom>
                         <PhoneIcon sx={{fontSize:"18px",color:"#6CCCCC"}}/> <span>+8801609015767</span>

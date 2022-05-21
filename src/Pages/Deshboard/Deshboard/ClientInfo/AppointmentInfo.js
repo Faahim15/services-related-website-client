@@ -37,14 +37,14 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 const AppointmentInfo = ({date}) => {
     const {users} = useAuth(); 
     const [appointments,setAppointments] = useState([]);
-
+  
     useEffect(()=>{
         const url = `http://localhost:5000/appointments?email=${users.email}&date=${date}`;
          fetch(url)
         .then(res => res.json())
         .then(data => setAppointments(data))
     },[date])
-    
+    console.log(appointments)
     return (
         <Box sx={{ml:{xs:0,sm:2}}}>
             <Typography sx={{textAlign:"start",fontSize:"20px",fontWeight:"500",pb:2,ml:2}} variant="body1" gutterBottom>
